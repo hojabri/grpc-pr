@@ -1,6 +1,8 @@
 package main
 
 import (
+	"context"
+	"fmt"
 	"github.com/hojabri/grpc-pr/greet/greetpb"
 	"google.golang.org/grpc"
 	"log"
@@ -10,8 +12,21 @@ import (
 type server struct {
 }
 
+func (*server) Greet(ctx context.Context, req *greetpb.GreetRequest) (*greetpb.GreetResponse, error) {
+	fmt.Printf("Greet function is calling from client: %v \n", req)
+	firstname := req.GetGreeting().FirstName
+	lastname := req.GetGreeting().LastName
+
+	result := "Hello " + firstname + " " + lastname
+	res := &greetpb.GreetResponse{
+		Result: result,
+	}
+	return res, nil
+}
+
 func main() {
 
+	fmt.Println("Server is running...")
 	lis, err := net.Listen("tcp", "0.0.0.0:50051")
 
 	if err != nil {

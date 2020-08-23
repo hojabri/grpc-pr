@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7583dc27-3719-4797-9785-075a21726cba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/calculator_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calculator_client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/calculator_server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calculator_server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/calculatorpb/calculator.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calculatorpb/calculator.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/calculatorpb/calculator.proto" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calculatorpb/calculator.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/generate.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greet_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greet_client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greet_server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greet_server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greetpb/greet.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greetpb/greet.pb.go" afterDir="false" />
@@ -41,6 +46,7 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1g0RH83eZBx7iVTmCmgc7AeBdBP" />
   <component name="ProjectLevelVcsManager">
@@ -62,7 +68,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/calculator/calculator_client" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go Template" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -141,9 +147,13 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1597266919268" />
-    <state x="986" y="181" key="SettingsEditor" timestamp="1597261588933">
+    <state x="986" y="181" key="SettingsEditor" timestamp="1597834498363">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="986" y="181" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1597261588933" />
+    <state x="986" y="181" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1597834498363" />
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597513218442">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1597513218442" />
   </component>
 </project>
